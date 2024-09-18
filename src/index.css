@@ -4,6 +4,9 @@ BASE STYLES
 ========================
 */
 
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -29,13 +32,13 @@ a {
 
 img {
   display: inline-block;
-  vertical-align: top;
   max-width: 100%;
   height: auto;
   object-fit: cover;
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -64,6 +67,16 @@ button {
   max-width: 428px;
   margin: 0 auto;
   padding: 0 16px;
+}
+@media (min-width: 429px) and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1157px) {
+  .container {
+    max-width: 1157px;
+  }
 }
 
 .visually-hidden {

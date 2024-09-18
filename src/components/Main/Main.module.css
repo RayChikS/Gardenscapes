@@ -1,0 +1,52 @@
+.hero {
+  position: relative;
+  height: 695px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  /* flex-direction: column; */
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/gardenHeroMob.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.title {
+  z-index: 1;
+  position: relative;
+  margin-top: 130px;
+  /* margin-bottom: 200px; */
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: rgb(209, 190, 14);
+  padding: 10px;
+  border-radius: 15px;
+  text-shadow: 2px 2px 0 rgba(217, 95, 14, 0.7),
+    -2px -2px 0 rgba(217, 95, 14, 0.7), 2px -2px 0 rgba(217, 95, 14, 0.7),
+    -2px 2px 0 rgba(217, 95, 14, 0.7), 0px 2px 0 rgba(217, 95, 14, 0.7),
+    2px 0px 0 rgba(217, 95, 14, 0.7), -2px 0px 0 rgba(217, 95, 14, 0.7),
+    0px -2px 0 rgba(217, 95, 14, 0.7);
+}
+
+.btnPlay {
+  bottom: 25px;
+  z-index: 1;
+  max-width: 250px;
+}
+.btnPlayImg {
+  width: 250px;
+  /* margin-top: 310px; */
+}
