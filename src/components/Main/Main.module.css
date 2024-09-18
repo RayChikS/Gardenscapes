@@ -1,3 +1,9 @@
+/*
+========================
+HERO
+========================
+*/
+
 .hero {
   position: relative;
   height: 695px;
@@ -24,14 +30,15 @@
 }
 
 .title {
+  font-family: "Fuzzy Bubbles", sans-serif;
   z-index: 1;
   position: relative;
+  max-width: 350px;
   margin-top: 130px;
-  /* margin-bottom: 200px; */
   text-align: center;
   font-size: 22px;
   font-weight: 800;
-  color: rgb(209, 190, 14);
+  color: rgb(234, 214, 38);
   padding: 10px;
   border-radius: 15px;
   text-shadow: 2px 2px 0 rgba(217, 95, 14, 0.7),
@@ -48,5 +55,95 @@
 }
 .btnPlayImg {
   width: 250px;
-  /* margin-top: 310px; */
+  margin-top: 280px;
+}
+
+/*
+========================
+ABOUT
+========================
+*/
+.about {
+  margin: 50px 0;
+}
+.aboutTitle {
+  color: rgb(209, 190, 14);
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+.aboutText {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-size: 20px;
+}
+
+/*
+========================
+FEATURES
+========================
+*/
+
+.features {
+  text-align: center;
+  padding: 50px 0;
+  background-image: url("../../images/featuresBack.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titleFeatures {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  background-color: white;
+  padding: 20px;
+  color: rgb(209, 190, 14);
+  border-radius: 15px;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.featuresList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featuresListItem {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 250px;
+}
+.featuresListItem:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.featuresH3 {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  color: rgb(209, 190, 14);
+  font-weight: 700;
+}
+.featuresItemText {
+  font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+/*
+========================
+GALLERY
+========================
+*/
+
+.gallery {
+  margin: 50px 0;
+}
+.galleryTitle {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  color: rgb(209, 190, 14);
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }

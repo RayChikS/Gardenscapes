@@ -1,5 +1,6 @@
 import css from "./Main.module.css";
 import play from "../../images/playMarket.png";
+import { Gallery } from "../Gallery/Gallery";
 
 export const Main = () => {
   return (
@@ -22,15 +23,56 @@ export const Main = () => {
       </section>
 
       <section className={css.about}>
-        <div className="container"></div>
+        <div className="container">
+          <h2 className={css.aboutTitle}>ABOUT</h2>
+          <p className={css.aboutText}>
+            Solve puzzles to restore the garden and move from plot to plot,
+            finding new friends in each chapter of the amazing story. Butler
+            Austin is ready to open the gates to the world of amazing adventures
+            for you!
+          </p>
+        </div>
       </section>
 
       <section className={css.features}>
-        <div className="container"></div>
+        <div className="container">
+          <h2 className={css.titleFeatures}>GAME FEATURES</h2>
+          <ul className={css.featuresList}>
+            <li className={css.featuresListItem}>
+              <h3 className={css.featuresH3}>DOWNLOADS:</h3>
+              <p className={css.featuresItemText}>
+                Avilable on the Google Play
+              </p>
+            </li>
+            <li className={css.featuresListItem}>
+              <h3 className={css.featuresH3}>RATING:</h3>
+              <p className={css.featuresItemText}>4.8 out of 12.8m. ratings</p>
+            </li>
+            <li className={css.featuresListItem}>
+              <h3 className={css.featuresH3}>PRICE:</h3>
+              <p className={css.featuresItemText}>Free with in-app purchases</p>
+            </li>
+            <li className={css.featuresListItem}>
+              <h3 className={css.featuresH3}>DEVICES:</h3>
+              <p className={css.featuresItemText}>
+                Android, iOS, Microsoft Store
+              </p>
+            </li>
+            <li className={css.featuresListItem}>
+              <h3 className={css.featuresH3}>AGE:</h3>
+              <p className={css.featuresItemText}>
+                Suitable for ages 12 and up
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section className={css.gallery}>
-        <div className="container"></div>
+        <div className="container">
+          <h2 className={css.galleryTitle}>GALLERY</h2>
+          <Gallery />
+        </div>
       </section>
 
       <section className={css.reviews}>

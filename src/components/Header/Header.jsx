@@ -52,7 +52,7 @@ export const Header = () => {
             ref={menuRef}
             className={`${css.nav} ${isMobileMenuOpen ? css.navOpen : ""}`}
           >
-            {/* Кнопка-крестик */}
+            {/* Close btn */}
             <button className={css.closeButton} onClick={toggleMobileMenu}>
               &times;
             </button>

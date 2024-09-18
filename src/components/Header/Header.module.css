@@ -43,6 +43,9 @@
 @media (max-width: 428px) {
   /* Burger menu */
   .burger {
+    z-index: 900;
+    position: fixed;
+    right: 10px;
     display: flex;
   }
 
