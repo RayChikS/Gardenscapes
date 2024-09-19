@@ -75,7 +75,7 @@ button {
     padding: 0 25px;
   }
 }
-@media (min-width: 769px) and (max-width: 1157px) {
+@media (min-width: 769px) and (max-width: 1158px) {
   .container {
     max-width: 1158px;
     padding: 0 40px;
@@ -102,4 +102,14 @@ button {
 .slick-next::before,
 .slick-prev::before {
   content: none;
+}
+.sliderCard-container .slick-slide > div {
+  /* width: 80%; */
+  margin-top: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  border-radius: 10px;
 }

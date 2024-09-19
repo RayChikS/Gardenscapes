@@ -1,2 +1,33 @@
 .footer {
+  padding: 40px 0;
+}
+.disclaimer {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #0a74a2;
+}
+@media (min-width: 500px) {
+  .disclaimer {
+    max-width: 500px;
+  }
+}
+.links {
+  margin-right: 20px;
+  color: rgb(209, 190, 14);
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.links:hover,
+.links:focus {
+  text-decoration: underline;
+}
+.copy {
+  margin-top: 30px;
+  color: #0a74a2;
+}
+.span {
+  color: rgb(209, 190, 14);
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
 }

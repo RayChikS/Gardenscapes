@@ -2,12 +2,6 @@
   padding: 0 10px;
 }
 
-.slick-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .slideImage {
   width: 100%;
   height: auto;
