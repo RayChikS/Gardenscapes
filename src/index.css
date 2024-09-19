@@ -72,11 +72,18 @@ button {
 @media (min-width: 429px) and (max-width: 768px) {
   .container {
     max-width: 768px;
+    padding: 0 25px;
   }
 }
 @media (min-width: 769px) and (max-width: 1157px) {
   .container {
-    max-width: 1157px;
+    max-width: 1158px;
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1158px) {
+  .container {
+    min-width: 1158px;
   }
 }
 
@@ -91,4 +98,8 @@ button {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.slick-next::before,
+.slick-prev::before {
+  content: none;
 }

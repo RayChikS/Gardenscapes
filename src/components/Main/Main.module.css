@@ -8,11 +8,14 @@ HERO
   position: relative;
   height: 695px;
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   overflow: hidden;
   text-align: center;
-  /* flex-direction: column; */
+}
+@media (min-width: 429px) and (max-width: 768px) {
+  .hero {
+    height: 730px;
+  }
 }
 
 .hero::before {
@@ -28,13 +31,18 @@ HERO
   background-size: cover;
   z-index: -1;
 }
+@media (min-width: 429px) {
+  .hero::before {
+    background-image: url("../../images/gardenHero.jpg");
+  }
+}
 
 .title {
   font-family: "Fuzzy Bubbles", sans-serif;
   z-index: 1;
   position: relative;
   max-width: 350px;
-  margin-top: 130px;
+  margin-top: 180px;
   text-align: center;
   font-size: 22px;
   font-weight: 800;
@@ -55,7 +63,7 @@ HERO
 }
 .btnPlayImg {
   width: 250px;
-  margin-top: 280px;
+  margin-top: 250px;
 }
 
 /*
@@ -64,7 +72,7 @@ ABOUT
 ========================
 */
 .about {
-  margin: 50px 0;
+  margin: 70px 0;
 }
 .aboutTitle {
   color: rgb(209, 190, 14);

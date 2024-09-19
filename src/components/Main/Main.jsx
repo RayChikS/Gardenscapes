@@ -4,8 +4,8 @@ import { Gallery } from "../Gallery/Gallery";
 
 export const Main = () => {
   return (
-    <header className={css.main}>
-      <section className={css.hero}>
+    <main className={css.main}>
+      <section id="hero" className={css.hero}>
         <div className="container">
           <h1 className={css.title}>
             Make “three in a row” combinations and create coziness in every
@@ -22,7 +22,7 @@ export const Main = () => {
         </div>
       </section>
 
-      <section className={css.about}>
+      <section id="about" className={css.about}>
         <div className="container">
           <h2 className={css.aboutTitle}>ABOUT</h2>
           <p className={css.aboutText}>
@@ -34,7 +34,7 @@ export const Main = () => {
         </div>
       </section>
 
-      <section className={css.features}>
+      <section id="features" className={css.features}>
         <div className="container">
           <h2 className={css.titleFeatures}>GAME FEATURES</h2>
           <ul className={css.featuresList}>
@@ -68,16 +68,16 @@ export const Main = () => {
         </div>
       </section>
 
-      <section className={css.gallery}>
+      <section id="gallery" className={css.gallery}>
         <div className="container">
           <h2 className={css.galleryTitle}>GALLERY</h2>
           <Gallery />
         </div>
       </section>
 
-      <section className={css.reviews}>
+      <section id="reviews" className={css.reviews}>
         <div className="container"></div>
       </section>
-    </header>
+    </main>
   );
 };

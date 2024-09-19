@@ -79,19 +79,19 @@ export const Header = () => {
           <nav className={css.desktopNav}>
             <ul className={css.navList}>
               <li className={css.navListItem}>
-                <a href="#">Home</a>
+                <NavLink to="/">Home</NavLink>
               </li>
               <li className={css.navListItem}>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li className={css.navListItem}>
-                <a href="#">Features</a>
+                <a href="#features">Features</a>
               </li>
               <li className={css.navListItem}>
-                <a href="#">Gallery</a>
+                <a href="#gallery">Gallery</a>
               </li>
               <li className={css.navListItem}>
-                <a href="#">Reviews</a>
+                <a href="#reviews">Reviews</a>
               </li>
             </ul>
           </nav>
