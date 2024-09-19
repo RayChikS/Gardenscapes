@@ -1,6 +1,7 @@
 import css from "./Main.module.css";
 import play from "../../images/playMarket.png";
 import { Gallery } from "../Gallery/Gallery";
+import Reviews from "../Reviews/Reviews";
 
 export const Main = () => {
   return (
@@ -76,7 +77,10 @@ export const Main = () => {
       </section>
 
       <section id="reviews" className={css.reviews}>
-        <div className="container"></div>
+        <div className="container">
+          <h2 className={css.reviewsTitle}>REVIEWS</h2>
+          <Reviews />
+        </div>
       </section>
     </main>
   );
