@@ -13,7 +13,10 @@ export const Main = () => {
             corner of your garden!
           </h1>
 
-          <a className={css.btnPlay} href="#">
+          <a
+            className={css.btnPlay}
+            href="https://play.google.com/store/apps/details?id=com.playrix.gardenscapes&hl=en_US"
+          >
             <img
               className={css.btnPlayImg}
               src={play}
