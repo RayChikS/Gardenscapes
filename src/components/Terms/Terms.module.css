@@ -1,0 +1,30 @@
+.terms {
+  color: #0a74a2;
+}
+.termsTitle {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+  color: rgb(234, 214, 38);
+  margin-top: 30px;
+}
+.listItem {
+  margin-top: 20px;
+}
+.termsText {
+  margin-top: 30px;
+  font-style: 18px;
+}
+
+.itemTitle {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  color: rgb(234, 214, 38);
+  margin-bottom: 5px;
+  font-weight: 800;
+}
+
+.itemList li {
+  padding-left: 10px;
+  margin-top: 6px;
+}
