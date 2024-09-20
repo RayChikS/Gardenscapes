@@ -16,6 +16,7 @@ export const Main = () => {
           <a
             className={css.btnPlay}
             href="https://play.google.com/store/apps/details?id=com.playrix.gardenscapes&hl=en_US"
+            target="_blank"
           >
             <img
               className={css.btnPlayImg}
